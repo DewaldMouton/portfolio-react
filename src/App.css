@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+h1 {
+  font-family: 'Cinzel', serif;
+}
+
+h2,
+p,
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.app {
+  height: calc(100vh - 20px);
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+
+  background-image: url('alien.jpg');
+  background-size: 100% auto;
+  background-color: #ccc;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+@media(max-width: 1040px) {
+  .app {
+    height: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+}
+
+.bg {
+  background-color: rgba(255, 255, 255, 0.712);
+}

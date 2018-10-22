@@ -5,6 +5,20 @@
     margin-bottom: 10px;
 }
 
+.younglings {
+    background-image: url(../../Alien_World.png);
+    background-size: 100% 100%;
+}
+
+.link-p {
+    width: fit-content;
+    padding: 10px;
+}
+
+.project {
+    width: 100px;
+    height: 100px;
+}
 
 @media(max-width: 1040px) {
     .projects {
